@@ -3,7 +3,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     const emailInput = document.getElementById('email');
 
     if (!nameInput.value.trim() || !emailInput.value.trim()) {
-        alert('Please fill in all fields.');
+        alert('fill in all fields.');
         event.preventDefault();
     }
 });
