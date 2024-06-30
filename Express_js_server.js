@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.post('/submit', (req, res) => {
     const { name, email } = req.body;
-    res.send('Data received successfully!');
+    res.send('Successful');
 });
 
 app.listen(PORT, () => {
