@@ -4,6 +4,6 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
 
     if (!nameInput.value.trim() || !emailInput.value.trim()) {
         alert('Please fill in all fields.');
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
     }
 });
